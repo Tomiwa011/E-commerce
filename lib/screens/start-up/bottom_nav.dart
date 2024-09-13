@@ -59,13 +59,11 @@ class _BottonNavbarState extends State<BottonNavbar> {
               icon: Icon(
                 Icons.home,
                 color: AppColors.primaryGrey,
-                
               ),
               label: "Home",
               activeIcon: Icon(
                 Icons.home,
                 color: AppColors.primaryOrange,
-                
               )),
           BottomNavigationBarItem(
               icon: Icon(
