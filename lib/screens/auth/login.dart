@@ -3,10 +3,10 @@ import 'package:e_commerce/screens/auth/signup.dart';
 import 'package:e_commerce/screens/start-up/bottom_nav.dart';
 import 'package:e_commerce/widget/custom_btn.dart';
 import 'package:e_commerce/widget/custom_text.dart';
-import 'package:flutter/gestures.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter/gestures.dart';
+
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

@@ -1,5 +1,6 @@
 import 'package:e_commerce/constant/color.dart';
 import 'package:e_commerce/screens/auth/login.dart';
+import 'package:e_commerce/screens/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -156,6 +157,20 @@ class _SignUpState extends State<SignUp> {
                               context,
                               MaterialPageRoute(
                                 builder: (context) => const LoginPage(),
+                              ),
+                            );
+                          },
+                          child: Text("Login",
+                              style: GoogleFonts.lato(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.w600,
+                                  color: AppColors.primaryOrange))),
+                      TextButton(
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const HomePage(),
                               ),
                             );
                           },
