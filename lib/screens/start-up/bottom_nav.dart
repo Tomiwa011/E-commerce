@@ -13,6 +13,7 @@ class _BottonNavbarState extends State<BottonNavbar> {
   int selectedIndex = 0;
   static const List<Widget> screens = [
     CustomText(
+    
         title: "Home",
         size: 20,
         color: AppColors.primaryOrange,
